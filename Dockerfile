@@ -14,4 +14,4 @@ RUN mkdir /usr/src/bcc/build && \
         make -j $(nproc) && \
         make install
 
-RUN /opt/datadog-agent/embedded/bin/pip install requests-unixsocket
+RUN /opt/datadog-agent/embedded/bin/pip install requests requests-unixsocket
