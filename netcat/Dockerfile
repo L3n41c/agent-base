@@ -1,3 +1,3 @@
 FROM archlinux
 
-RUN pacman -Sy --noconfirm gnu-netcat
+RUN pacman -Sy --noconfirm openbsd-netcat
